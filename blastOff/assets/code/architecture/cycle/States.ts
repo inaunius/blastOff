@@ -1,10 +1,12 @@
 import { Fsm, PayloadedState, PlainState, BasicState } from "../../common/Fsm"
+import { Debugger } from "../../static/Debugger"
+import { DebugLogTypes } from "../../static/Enums"
 import { GameCycleDependencies, GameCycle } from "./GameCycle"
+
 
 export abstract class GameState implements BasicState {
 	public onExit(): void {}
 }
-
 
 export class InitState extends GameState implements PlainState {
 	private readonly dependencies: GameCycleDependencies 
@@ -18,16 +20,17 @@ export class InitState extends GameState implements PlainState {
 	}
 
 
-	public onEnter(): void {}
+	public onEnter(): void {
+	}
 }
 
 export class HubState extends GameState implements PlainState {
-	public onEnter(): void {}
+	public onEnter(): void {
+	}
 }
 
 export class StartGameState extends GameState implements PlainState {
 	public onEnter(): void {
-		
 	}
 }
 export class InGameState extends GameState implements PlainState {

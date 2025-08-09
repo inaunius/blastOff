@@ -1,9 +1,11 @@
+import { ActionEvent } from "../../common/ActionEvent"
 import { Fsm } from "../../common/Fsm"
-import { GameStates } from "../../static/enums";
-import { GameOverState, GameState, HubState, InGameState, InitState, PauseGameState, QuitState, StartGameState, StopGameState } from "./States";
+import { Debugger } from "../../static/Debugger"
+import { DebugLogTypes, GameStates } from "../../static/Enums"
+import { GameOverState, GameState, HubState, InGameState, InitState, PauseGameState, QuitState, StartGameState, StopGameState } from "./States"
 
 
-export class GameCycle implements GameCycleService{
+export class GameCycle implements GameCycleService {
 	public readonly onStateSwitch : ActionEvent<GameStates>
 	
 	private readonly _fsm: Fsm<GameState, GameStates>
@@ -20,62 +22,49 @@ export class GameCycle implements GameCycleService{
 			[GameStates.STOP_GAME, new StopGameState()],
 			[GameStates.PAUSE_GAME, new PauseGameState()],
 			[GameStates.QUIT, new QuitState()]
-		);
+		)
 
 		this._fsm.onStateSwitched.addListener((state) => this.onStateSwitch.fireEvent(state))
 	}
 
-		get activeState(): GameStates {
-			return this._fsm.activeState
-		}
 
-		public enterHub(): void  {
-
-		}
-
-		public enterGameOver(): void {
-
-		}
-
-		public startNewGame(): void {
-
-		}
-
-		public pauseGame(): void {
-		}
-		
-		public enterShop(): void {
-
-		}
-		public closeShop(): void {
-
-		}
-
-		public unpauseGame(): void {
-
-		}
-
-		public quitGame(): void {
-
-		}
-
-		public initGame(): void {
-
-		}
+	get activeState(): GameStates {
+		return this._fsm.activeState
 	}
+
+
+	public enterHub(): void  { this.switchState(GameStates.HUB) }
+
+	public enterGameOver(): void { this.switchState(GameStates.GAME_OVER) }
+
+	public startNewGame(): void { this.switchState(GameStates.START_GAME) }
+
+	public pauseGame(): void { this.switchState(GameStates.PAUSE_GAME) }
+
+	public unpauseGame(): void { this.switchState(GameStates.IN_GAME) }
+
+	public quitGame(): void { this.switchState(GameStates.QUIT) }
+
+	public initGame(): void { this.switchState(GameStates.INIT) }
+
+	private switchState(stateKey: GameStates) {
+		Debugger.log(`${stateKey}`, DebugLogTypes.GAME_CYCLE)
+		this._fsm.switchState(stateKey)
+	}
+}
 	
-	export interface GameCycleService {
-		readonly onStateSwitch: ActionEvent<GameStates>
+export interface GameCycleService {
+	readonly onStateSwitch: ActionEvent<GameStates>
 
-		get activeState(): GameStates
+	get activeState(): GameStates
 
-		enterGameOver(): void
-		enterHub(): void
-		startNewGame(): void
-		pauseGame(): void
-		unpauseGame(): void
-		quitGame(): void
-	}
+	enterGameOver(): void
+	enterHub(): void
+	startNewGame(): void
+	pauseGame(): void
+	unpauseGame(): void
+	quitGame(): void
+}
 
 
 export class GameCycleDependencies {

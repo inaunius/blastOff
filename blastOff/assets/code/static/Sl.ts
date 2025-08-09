@@ -1,5 +1,5 @@
 import { ServiceLocator } from "../common/ServiceLocator";
-import { GameCycleServiceTags, PublicServiceTags, UtilsServiceTags } from "./enums";
+import { GameCycleServiceTags, PublicServiceTags, UtilsServiceTags } from "./Enums";
 
 
 export class Sl {

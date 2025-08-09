@@ -1,3 +1,6 @@
+import { ActionEvent } from "./ActionEvent";
+
+
 export class Fsm<TState extends BasicState, TStateKey> {
 	public readonly onStateSwitched : ActionEvent<TStateKey> = new ActionEvent<TStateKey>()
 	
