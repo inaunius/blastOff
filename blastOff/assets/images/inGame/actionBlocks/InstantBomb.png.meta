@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "3ad625e0-87f1-40b9-9b57-7e8024ec7b0f",
+  "uuid": "81cc8e04-d2cf-4da8-8679-ae1138783d97",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "InstantBomb": {
       "ver": "1.0.6",
-      "uuid": "3c130128-de55-4788-8549-953902926457",
+      "uuid": "d4b44d82-b7c2-440e-9100-69fc4a714976",
       "importer": "sprite-frame",
-      "rawTextureUuid": "3ad625e0-87f1-40b9-9b57-7e8024ec7b0f",
+      "rawTextureUuid": "81cc8e04-d2cf-4da8-8679-ae1138783d97",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

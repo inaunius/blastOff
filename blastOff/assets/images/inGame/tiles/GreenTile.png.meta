@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "98424983-8a4f-4405-bc93-22131d7b10b9",
+  "uuid": "f5020d49-da6a-4417-96f5-7b7eee70cc03",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "GreenTile": {
       "ver": "1.0.6",
-      "uuid": "737ce306-140e-44c3-8a14-41d6ecbddbc8",
+      "uuid": "1f9d26e1-55da-4b91-8ac3-5492ae0b1a0a",
       "importer": "sprite-frame",
-      "rawTextureUuid": "98424983-8a4f-4405-bc93-22131d7b10b9",
+      "rawTextureUuid": "f5020d49-da6a-4417-96f5-7b7eee70cc03",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

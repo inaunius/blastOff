@@ -10,6 +10,6 @@ export class Debugger {
 
 	public static log(msg: string, type: DebuggerLogTypes) {
 		if (this.LOG_TYPES_CONFIG.get(type))
-			console.log(`${type}: ${msg}`)
+			console.log(`${DebuggerLogTypes[type]}: ${msg}`)
 	}
 }

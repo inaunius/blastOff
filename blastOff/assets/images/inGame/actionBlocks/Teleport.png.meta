@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "9e420737-7c76-455e-82a9-29e8b373905d",
+  "uuid": "401b34a1-3539-4043-b4cf-9e5c7b27808c",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "Teleport": {
       "ver": "1.0.6",
-      "uuid": "25c12f01-4c9c-422e-bef0-a5b0076476a1",
+      "uuid": "e2157bc3-cf73-4e54-99fc-1ebb6ee36925",
       "importer": "sprite-frame",
-      "rawTextureUuid": "9e420737-7c76-455e-82a9-29e8b373905d",
+      "rawTextureUuid": "401b34a1-3539-4043-b4cf-9e5c7b27808c",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

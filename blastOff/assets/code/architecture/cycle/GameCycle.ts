@@ -48,16 +48,16 @@ export class GameCycle implements GameCycleService {
 	public initGame(): void { this.switchState(GameStates.INIT) }
 
 	private switchState(stateKey: GameStates) {
-		Debugger.log(`${stateKey}`, DebugLogTypes.GAME_CYCLE)
+		Debugger.log(`${GameStates[stateKey]}`, DebugLogTypes.GAME_CYCLE)
 		this._fsm.switchState(stateKey)
 	}
 }
 	
 export interface GameCycleService {
 	readonly onStateSwitch: ActionEvent<GameStates>
+	readonly activeState: GameStates
 
-	get activeState(): GameStates
-
+	
 	enterGameOver(): void
 	enterHub(): void
 	startNewGame(): void

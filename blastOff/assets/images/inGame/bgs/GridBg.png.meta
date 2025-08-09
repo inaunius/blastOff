@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "6f0ead7d-f955-43b9-b4c4-23644f094258",
+  "uuid": "26c8720b-9f80-4059-81b7-bff779876428",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "GridBg": {
       "ver": "1.0.6",
-      "uuid": "d84fe2fa-fbcc-4a6d-9afb-2b706d8fbd33",
+      "uuid": "5525d036-15c2-4a4d-a0e7-267d2bdea174",
       "importer": "sprite-frame",
-      "rawTextureUuid": "6f0ead7d-f955-43b9-b4c4-23644f094258",
+      "rawTextureUuid": "26c8720b-9f80-4059-81b7-bff779876428",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

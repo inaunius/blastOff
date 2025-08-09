@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "a821378a-ec61-4ba5-8b76-7ccdff5da332",
+  "uuid": "841376cf-e159-4409-a60a-0a9e18f19f98",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "BlueTile": {
       "ver": "1.0.6",
-      "uuid": "0b960493-029f-4440-a441-fc1ef4764740",
+      "uuid": "dd5e5fe7-c805-46b3-9232-a7e3c3767b4a",
       "importer": "sprite-frame",
-      "rawTextureUuid": "a821378a-ec61-4ba5-8b76-7ccdff5da332",
+      "rawTextureUuid": "841376cf-e159-4409-a60a-0a9e18f19f98",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "509ac85b-a746-4475-9a47-ead1754d4403",
+  "uuid": "22df771d-efc1-42ae-b5fb-0dd9b100517b",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "RedTile": {
       "ver": "1.0.6",
-      "uuid": "3d91dba9-92da-43d9-b2d3-088dfb4873fa",
+      "uuid": "1ae092c1-310c-49c8-9190-171c1f72bc50",
       "importer": "sprite-frame",
-      "rawTextureUuid": "509ac85b-a746-4475-9a47-ead1754d4403",
+      "rawTextureUuid": "22df771d-efc1-42ae-b5fb-0dd9b100517b",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

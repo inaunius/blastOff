@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "2b2dc569-3814-4df4-99aa-ca0ec7fe0850",
+  "uuid": "0842802e-8a7e-4fbf-8ee3-2be064b92ad8",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "YelllowTile": {
       "ver": "1.0.6",
-      "uuid": "fda22080-0989-48bf-b3e0-e7b504e99175",
+      "uuid": "325800d5-18a8-40f8-b2ac-fd069ebd3ba3",
       "importer": "sprite-frame",
-      "rawTextureUuid": "2b2dc569-3814-4df4-99aa-ca0ec7fe0850",
+      "rawTextureUuid": "0842802e-8a7e-4fbf-8ee3-2be064b92ad8",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

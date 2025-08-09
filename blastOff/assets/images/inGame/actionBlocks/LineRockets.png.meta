@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "bf8ba09a-ea9f-435c-be84-728dcf281a34",
+  "uuid": "00a9546b-c81b-4075-95bc-42d29982c6dc",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "LineRockets": {
       "ver": "1.0.6",
-      "uuid": "40893566-5000-472b-8f19-647f30b85f00",
+      "uuid": "c28740f5-7382-4584-8b65-0b938cedebb9",
       "importer": "sprite-frame",
-      "rawTextureUuid": "bf8ba09a-ea9f-435c-be84-728dcf281a34",
+      "rawTextureUuid": "00a9546b-c81b-4075-95bc-42d29982c6dc",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

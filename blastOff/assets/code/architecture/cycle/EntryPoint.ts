@@ -4,7 +4,7 @@ const {ccclass, property} = cc._decorator;
 
 
 @ccclass
-export default class NewClass extends cc.Component {
+export default class EntryPoint extends cc.Component {
 	private _gameCycle: GameCycle
 
 
@@ -13,7 +13,7 @@ export default class NewClass extends cc.Component {
 			new GameCycleDependencies(
 			)
 		)
-		
+		console.log("B")
 		this._gameCycle.initGame();
 		this._gameCycle.enterHub();
   }
